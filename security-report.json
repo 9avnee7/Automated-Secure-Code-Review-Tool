@@ -1,0 +1,35 @@
+[
+  {
+    "file": "test/sample.js",
+    "issues": [
+      {
+        "file": "test/sample.js",
+        "line": 4,
+        "type": "API_KEY",
+        "match": "api_key=1234567890abcdef1234\""
+      },
+      {
+        "file": "test/sample.js",
+        "line": 5,
+        "type": "PASSWORD",
+        "match": "password = \"password:"
+      },
+      {
+        "file": "test/sample.js",
+        "line": 6,
+        "type": "AWS_KEYS",
+        "match": "AKIAIOSFODNN7EXAMPLE"
+      },
+      {
+        "file": "test/sample.js",
+        "line": 9,
+        "function": "eval"
+      },
+      {
+        "file": "test/sample.js",
+        "line": 14,
+        "function": "fs.chmod"
+      }
+    ]
+  }
+]
